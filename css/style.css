@@ -1,0 +1,36 @@
+/* Header */
+
+header > .container > .row {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.jumbotron {
+    margin: 0px auto;
+    padding: 70px 30px;
+    background-color: #9575CD;
+    color: floralwhite;
+}
+
+/* Content */
+
+header + .container > .row {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+/* Footer */
+
+footer {
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #D1C4E9;
+}
+
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0F0F0F;
+}
