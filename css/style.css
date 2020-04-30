@@ -37,7 +37,7 @@ body {
 
 /* Footer */
 
-footer {
+footer:not(.blockquote-footer) {
     margin: 0px auto;
     padding: 20px 0px;
     background-color: #D1C4E9;
