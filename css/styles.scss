@@ -75,3 +75,16 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+/* Modals */
+
+.modal-header {
+    background: $background-dark;
+    h4, button {
+        color: #FFF;
+    }
+}
+
+.modal-body {
+    background: $background-pale;
+}

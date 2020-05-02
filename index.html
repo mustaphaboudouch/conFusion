@@ -41,7 +41,7 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="modal" data-target="#loginModal" href="#"><i class="fa fa-sign-in"></i> Login</a>
+                        <a class="nav-link" href="#" id="login-button"><i class="fa fa-sign-in"></i> Login</a>
                     </li>
                 </ul>
             </div>
@@ -61,7 +61,7 @@
                             <img src="img/logo.png" class="img-fluid">
                         </div>
                         <div class="col-12 col-sm-6 align-self-center">
-                            <a class="btn btn-block btn-sm btn-warning" role="button" data-toggle="modal" data-target="#reserveModal" href="#reserveform">Reserve Table</a>
+                            <a class="btn btn-block btn-sm btn-warning" role="button" id="reserve-button" href="#">Reserve Table</a>
                         </div>
                     </div>
                 </div>
@@ -340,22 +340,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("#mycarousel").carousel({ interval: 2000 });
-            $("#carouselButton").click(function () {
-
-                if ($(this).children('span').hasClass('fa-pause')) {
-                    $("#mycarousel").carousel('pause');
-                    $(this).children('span').removeClass('fa-pause').addClass('fa-play');
-                }
-                else {
-                    $("#mycarousel").carousel('cycle');
-                    $(this).children('span').removeClass('fa-play').addClass('fa-pause');
-                } 
-            });
-        });
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
